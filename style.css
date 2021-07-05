@@ -2,10 +2,18 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
 }
+h1{
+    font-size: 50px;
+
+}
+h2{
+    font-size: 40px;
+
+}
 .orange{
     color:goldenrod;
 }
-section{
+.flexibol{
     display: flex;
     margin-bottom: 150px;
 }
@@ -27,5 +35,29 @@ section{
 .top{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.box{
+    box-shadow: 10px 10px 40px grey;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2%;
+    border-radius: 5px;
+
+}
+#pro{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+
+}
+#nubro{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+ 
+}
+footer{
+    text-align: center;
 }
 
